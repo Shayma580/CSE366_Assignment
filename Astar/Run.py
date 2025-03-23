@@ -19,7 +19,7 @@ def main():
     pygame.init()
 
     screen = pygame.display.set_mode((WINDOW_WIDTH + STATUS_WIDTH, WINDOW_HEIGHT))
-    pygame.display.set_caption("Pygame AI Grid Simulation")
+    pygame.display.set_caption("Pygame AI Grid Simulation: A* Search")
 
     clock = pygame.time.Clock()
     font = pygame.font.Font(None, 24)
